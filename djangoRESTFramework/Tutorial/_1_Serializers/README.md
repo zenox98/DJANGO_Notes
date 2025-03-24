@@ -86,7 +86,7 @@
    -  We can do this by declaring serializers that work very similar to Django's forms.
    -  Create a file in the `appName` directory called `serializers.py` and add the Following.
 
-   > [!INFO] serializers.py
+   >[!INFO] serializers.py
    
    ```py 
    from restframework import serializers
