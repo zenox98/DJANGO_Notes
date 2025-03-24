@@ -1,30 +1,40 @@
 # Getting started
 
-1. **Create a django project:**
-   
-   ```bash
-   django-admin startproject projectNamecd
-   cd projectName
-   ```
-
-2. **Create an App :**
-
-    Once project is Created, create a app in Project Folder
-    ```bash
-    django-admin startapp appName
-    ```
-3. **Register Your App in settings :**
-
-    Once app is created, register it in settings.py file
-    ```python
+1. **Setting Django Project RESTframework :**
+    * Setting up new Python Environment
+        Before starting the project, make sure that you have set up a new Python environment.
+        - for linux
+            ```bash
+            python -m venv envName
+            source envName/bin/activate
+            ```
+        - for windows
+            ```bash
+            python -m venv envName
+            source envName\Scripts\activate
+            ```
     
-    INSTALLED_APPS = [
-        ...
-        # project apps that are created
-        'appName',
+    * Create a Django Project
+        ```bash
+        django-admin startproject projectNamecd
+        cd projectName
+        ```
 
-        # library apps that will be used in Project
-        'restframework'
-        ...
-    ]
-    ```
+    * Once the Django project is Created, create apps in Django Project Folder
+        ```bash
+        django-admin startapp appName
+        ```
+    
+    * Once app is created, register it in settings.py file.
+        ```py
+
+        INSTALLED_APPS = [
+            ...
+            # project apps that are created
+            'appName',
+
+            # library apps that will be used in Project
+            'restframework'
+            ...
+        ]
+        ```
