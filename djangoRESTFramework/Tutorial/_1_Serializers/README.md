@@ -87,7 +87,7 @@
    -  Create a file in the `appName` directory called `serializers.py` and add the Following.
 
    > [!INFO]
-   > file name `serializers.py`.
+   > File name `serializers.py`.
 
    > [!NOTE]
    > Useful information that users should know, even when skimming content.
